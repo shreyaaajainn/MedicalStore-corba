@@ -1,0 +1,8 @@
+module MedicalStore{
+  interface medintf{
+      string check_medicine(in string med_id);
+      string process_medicine(in string med_id, in long quantity);
+      long total_price();
+      string pay_bill();
+      };
+};
